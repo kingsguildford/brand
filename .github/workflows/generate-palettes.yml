@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 18
 
-      - run: npm install @theapprenticewizard/ase-utils
+      - run: npm install ase-utils
 
       - run: mkdir -p outputs && node scripts/build-palettes.js
       - run: python3 scripts/generate-afpalette.py
