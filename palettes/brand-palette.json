@@ -1,0 +1,82 @@
+[
+  {
+    "name": "primary",
+    "hex": "#0a3e6a"
+  },
+  {
+    "name": "secondary",
+    "hex": "#1d70b7"
+  },
+  {
+    "name": "accent-1",
+    "hex": "#a6bfd1"
+  },
+  {
+    "name": "accent-2",
+    "hex": "#0094ff"
+  },
+  {
+    "name": "accent-3",
+    "hex": "#003994"
+  },
+  {
+    "name": "light",
+    "hex": "#eeeeee"
+  },
+  {
+    "name": "dark",
+    "hex": "#333333"
+  },
+  {
+    "name": "little-lights-1",
+    "hex": "#E6323B"
+  },
+  {
+    "name": "little-lights-2",
+    "hex": "#EA6B12"
+  },
+  {
+    "name": "little-lights-3",
+    "hex": "#FFF2D3"
+  },
+  {
+    "name": "creche-1",
+    "hex": "#CE168D"
+  },
+  {
+    "name": "explorers-1",
+    "hex": "#ED3427"
+  },
+  {
+    "name": "explorers-2",
+    "hex": "#F48C25"
+  },
+  {
+    "name": "explorers-3",
+    "hex": "#FBD313"
+  },
+  {
+    "name": "rooted-1",
+    "hex": "#0B6D3B"
+  },
+  {
+    "name": "rooted-2",
+    "hex": "#2FAC90"
+  },
+  {
+    "name": "rooted-3",
+    "hex": "#89C444"
+  },
+  {
+    "name": "equip-1",
+    "hex": "#2F2560"
+  },
+  {
+    "name": "equip-2",
+    "hex": "#82225E"
+  },
+  {
+    "name": "equip-3",
+    "hex": "#CD1F5D"
+  }
+]
