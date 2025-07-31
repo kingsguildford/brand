@@ -1,0 +1,24 @@
+name: Generate File Index
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Generate index.html
+        run: |
+          python3 .github/scripts/generate_index.py > index.html
+
+      - name: Commit & push index.html
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add index.html
+          git commit -m "Auto-generate index.html" || echo "No changes"
+          git push
